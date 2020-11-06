@@ -1,0 +1,5 @@
+C:\Users\Dator\Desktop\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csprojAssemblyReference.cache
+C:\Users\Dator\Desktop\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.AssemblyInfoInputs.cache
+C:\Users\Dator\Desktop\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.AssemblyInfo.cs
+C:\Users\Dator\Desktop\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Dator\Desktop\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache

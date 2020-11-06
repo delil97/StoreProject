@@ -1,0 +1,12 @@
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.deps.json
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.runtimeconfig.json
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.runtimeconfig.dev.json
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.dll
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.pdb
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.csprojAssemblyReference.cache
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.AssemblyInfoInputs.cache
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.AssemblyInfo.cs
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.csproj.CoreCompileInputs.cache
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.dll
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.pdb
+C:\Users\Dator\Desktop\StoreProject\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.genruntimeconfig.cache
