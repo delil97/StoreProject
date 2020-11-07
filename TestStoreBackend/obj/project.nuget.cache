@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dTw4nnZlRCVsxGZLFKjZ+yJGPtKrWfFfovQmemoD6m7N/jhFPM6+aI4VjhvgGmpPSGX296PXGL63vF340v52+w==",
+  "dgSpecHash": "yIodGV8/vc6WinM85uir73p1nDczXmK54PU/df+XtTqKyYGDqS7fh5dAsEamoA6GlLAGb3cp5znvZiXr1gYnhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\TestStoreBackend.csproj",
+  "projectFilePath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dator\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Dator\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

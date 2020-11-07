@@ -5678,11 +5678,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj",
+      "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
       "projectName": "StoreBackend",
-      "projectPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj",
+      "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
       "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\obj\\",
+      "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

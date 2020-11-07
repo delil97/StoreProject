@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\TestStoreBackend.csproj": {}
+    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj": {
+    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
         "projectName": "StoreBackend",
-        "projectPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj",
+        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
         "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\obj\\",
+        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\TestStoreBackend.csproj": {
+    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\TestStoreBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
         "projectName": "TestStoreBackend",
-        "projectPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\TestStoreBackend.csproj",
+        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
         "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\TestStoreBackend\\obj\\",
+        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -97,8 +97,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj": {
-                "projectPath": "C:\\Users\\Dator\\Desktop\\StoreProject\\StoreBackend\\StoreBackend.csproj"
+              "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+                "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj"
               }
             }
           }

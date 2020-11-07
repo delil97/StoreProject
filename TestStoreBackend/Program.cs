@@ -1,6 +1,7 @@
 ﻿using StoreBackend;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TestStoreBackend
 {
@@ -8,42 +9,31 @@ namespace TestStoreBackend
     {
         static void Main(string[] args)
         {
-          
-          
-            //User user = new User()
-            //{
-            //    FirstName = "Erik",
-            //    LastName = "Holm",
-            //    Password = 12345
-            //};
-
-            //users.Add(user);
-
-
-
             using (var db = new StoreContext())
             {
-
-                    //Todo Hämta ut information i databasen;
-
-                    //Todo Hämta ut en lista av users från databasen
-
-                    //Todo Ta bort någon user från databasen;
-
-                     // Todo skapa nytt StoreFrontend projekt och kolla om den fungerar
-
-                     // Todo BÄNKA 1240 KG
-
-            }
-                Console.WriteLine("Hello World!");
+               
+                // Read
+                var usr = db.User
+                    .OrderBy(b => b.FirstName)
+                    .First();
+                Console.ReadLine();
+                Console.WriteLine(usr.FirstName);
 
 
-            GetUsers();
-        }
+                // Delete
+                Console.WriteLine("Delete user");
+                db.Remove(usr);
+                db.SaveChanges();
+            }    
+            // Todo Hämta ut information i databasen; // Check
 
-        private static void GetUsers()
-        {
-            GetUsers();
+            // Todo Hämta ut en lista av users från databasen // check
+
+            // Todo Ta bort någon user från databasen; // check
+
+            // Todo skapa nytt StoreFrontend projekt och kolla om den fungerar check
+
+
         }
     }
 }

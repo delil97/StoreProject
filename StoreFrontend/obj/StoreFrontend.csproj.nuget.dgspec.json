@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {}
+    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
-        "projectName": "StoreBackend",
-        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
+        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
+        "projectName": "StoreFrontend",
+        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
         "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\obj\\",
+        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,18 +40,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[3.1.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.9, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,6 +51,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
