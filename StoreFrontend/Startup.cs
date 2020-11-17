@@ -28,13 +28,38 @@ namespace StoreFrontend
 
             app.UseRouting();
 
+
+            //Default url https://localhost:44356/YOURNAME
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Welcome to store project");
                 });
             });
+
+
+            //https://localhost:44356/YOURNAME
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapGet("/{name:alpha}", async context =>
+                {
+                    var name = context.Request.RouteValues["name"];
+                    await context.Response.WriteAsync($"Welcome to store project {name}");
+                });
+            });
+
+            //  //https://localhost:44356/hello/YOURNAME
+            //https://docs.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-5.0
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.Map("/hello/{name:alpha}", async context =>
+                {
+                    var name = context.Request.RouteValues["name"];
+                    await context.Response.WriteAsync($"Hello {name}");
+                });
+            });
+
         }
     }
 }
