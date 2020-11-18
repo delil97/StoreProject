@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using TestStoreBackend.Classes;
 
 namespace TestStoreBackend
 {
@@ -9,46 +10,83 @@ namespace TestStoreBackend
     {
         static void Main(string[] args)
         {
-            using (var db = new StoreContext())
+            // All methods are in CRUD class
+            CRUD crud = new CRUD();
+
+            // Showing menu from a separate class
+            Menu ShowMenu = new Menu();
+
+
+            // Using while to loop through the list 
+            bool listRunning = true;
+            while (listRunning)
             {
-                User user = new User()
+                
+                char ch;
+                ShowMenu.ShowMenu();
+                ch = char.Parse(Console.ReadLine());
+
+                switch (ch)
                 {
-                    FirstName = "Erik",
-                    LastName = "Holm",
-                    Password = 123
-                };
+                    //Create
+                    case '1':
+                        crud.Create(); 
+                        Console.WriteLine("Press [ENTER] to go back to the menu");
+                        Console.ReadLine();
+                        Console.Clear();
 
-                db.User.Add(user);
-                db.SaveChanges();
+                        break;
+                        //Read
+                    case '2':
+                        crud.Read(); 
+                        Console.WriteLine("Press [ENTER] to go back to the menu");
+                        Console.ReadLine();
+                        Console.Clear();
 
-                var userIsValid = from u in db.User where u.FirstName == "Erik" && u.Password == 123 select u;
+                        break;
+                        //Update
+                    case '3':
+                        crud.Read();// Displaying all the users from the database, application user then can update a user by giving the Id.
+                        crud.Uppdate();
+                        Console.WriteLine("Press [ENTER] to go back to the menu");
+                        Console.ReadLine();
+                        Console.Clear();
 
-                if(userIsValid.Count() >= 0)
-                {
-                    Console.WriteLine("You are logged in!");
+                        break;
+
+                    //Delete
+                    case '4':
+                        crud.Read(); // Displaying all the users from the database, application user then can delete a user by giving the Id.
+                        crud.Delete();
+                        Console.WriteLine("Press [ENTER] to go back to the menu");
+                        Console.ReadLine();
+                        Console.Clear();
+
+                        break;
+
+
                 }
 
-                // Read
-                //var usr = db.User
-                //    .OrderBy(b => b.FirstName)
-                //    .First();
-                //Console.ReadLine();
-                //Console.WriteLine(usr.FirstName);
+            }
 
+            // ----Implement this simple login later----
 
-                // Delete
-                //Console.WriteLine("Delete user");
-                //db.Remove(usr);
-                //db.SaveChanges();
-            }    
-            // Todo Hämta ut information i databasen; // Check
+            // User user = new User()
+            // {
+            //     FirstName = "Erik",
+            //     LastName = "Holm",
+            //     Password = 123
+            // };
 
-            // Todo Hämta ut en lista av users från databasen // check
+            // db.User.Add(user);
+            // db.SaveChanges();
 
-            // Todo Ta bort någon user från databasen; // check
+            // var userIsValid = from u in db.User where u.FirstName == "Erik" && u.Password == 123 select u;
 
-            // Todo skapa nytt StoreFrontend projekt och kolla om den fungerar check
-
+            // if(userIsValid.Count() >= 0)
+            // {
+            //     Console.WriteLine("You are logged in!");
+            // }
 
         }
     }
