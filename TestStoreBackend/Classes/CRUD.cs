@@ -8,6 +8,8 @@ namespace TestStoreBackend.Classes
 {
    public class CRUD
     {
+        //Todo Tips: att tänka på kan vara att ange denna klass som exempelvis UserHelper eller CRUDUser. Det gör det lite tydligare vad denna klassen gör. Ett annat tips är att ange den som static då räcker det med att skriva CRUD.Create(). Att den är static betyder att den inte blir intansierad. (Du skapar inte ett object av den)
+        //Jag anser att det är bättre med en statisk klass här då vi inte behöver hantera några variabler eller dylikt inuti denna klassen. Vi använder den bara som en hjälp klass. Då passar en statisk klass bättre. 
         //Create method
         public void Create()
         {
