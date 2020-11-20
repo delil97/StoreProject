@@ -96,3 +96,4 @@ TestStoreBackend/obj/TestStoreBackend.csproj.nuget.g.props
 *.dll
 *.json
 *.cache
+*.exe
