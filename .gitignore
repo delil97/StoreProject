@@ -4,3 +4,6 @@ StoreBackend/obj/Debug/netcoreapp3.1/StoreBackend.csprojAssemblyReference.cache
 StoreFrontend/obj/Debug/netcoreapp3.1/StoreFrontend.assets.cache
 StoreFrontend/obj/Debug/netcoreapp3.1/StoreFrontend.csprojAssemblyReference.cache
 TestStoreBackend/obj/Debug/netcoreapp3.1/TestStoreBackend.csprojAssemblyReference.cache
+*.dll
+*.cache
+*.cache
