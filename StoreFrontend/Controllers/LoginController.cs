@@ -12,5 +12,10 @@ namespace StoreFrontend.Controllers
         {
             return View();
         }
+        [Route("/Test", Name = "Custom")]
+        public string Test()
+        {
+            return "This is the test page";
+        } 
     }
 }

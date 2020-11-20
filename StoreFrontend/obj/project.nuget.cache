@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rQYM6CnWFV9JE67Cs2/yE21mVHAvpfxW2gCujCmWoSGtn7jDqu91GJl0I2fzJhp0sO22Mfcx0M3LXt6LA8LNfQ==",
+  "dgSpecHash": "2oKghTXGf2hOugbyOAP3VlaheyDB+zKSQgJN9k/36nP9pSKw3/f8NQH6A3lu1Jj7yUJhzykky1uYk0AD2tODAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
+  "projectFilePath": "C:\\www\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

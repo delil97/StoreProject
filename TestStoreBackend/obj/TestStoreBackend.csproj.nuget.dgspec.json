@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {}
+    "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+    "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
+        "projectUniqueName": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
         "projectName": "StoreBackend",
-        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
-        "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\obj\\",
+        "projectPath": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
+        "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
+        "outputPath": "C:\\www\\StoreProject-\\StoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,25 +69,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {
+    "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
+        "projectUniqueName": "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
         "projectName": "TestStoreBackend",
-        "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
-        "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\TestStoreBackend\\obj\\",
+        "projectPath": "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
+        "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
+        "outputPath": "C:\\www\\StoreProject-\\TestStoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -97,8 +101,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
-                "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject-\\StoreBackend\\StoreBackend.csproj"
+              "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+                "projectPath": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj"
               }
             }
           }
@@ -126,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,13 @@
 <h1>Login</h1>
 <div>
     <h2>Enter your user credentials and press login.</h2>
-    
-    <input />
+    <form method="post">
+        <div class="inputFields">
+            <input type="text" alt="username" asp-route="Custom">
+            <input type="password" alt="passowrd" asp-route="Custom">
+            <button asp-route="/Test">Click Me</button>
+        </div>
+     
+    </form>
 </div>
 
