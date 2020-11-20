@@ -92,3 +92,7 @@ TestStoreBackend/obj/project.assets.json
 TestStoreBackend/obj/project.nuget.cache
 TestStoreBackend/obj/TestStoreBackend.csproj.nuget.dgspec.json
 TestStoreBackend/obj/TestStoreBackend.csproj.nuget.g.props
+*.cache
+*.dll
+*.json
+*.cache
