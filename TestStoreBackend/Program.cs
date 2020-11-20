@@ -10,9 +10,8 @@ namespace TestStoreBackend
     {
         static void Main(string[] args)
         {
-            // All methods are in CRUD class
-            CRUD crud = new CRUD();
-
+           
+          
             // Showing menu from a separate class
             Menu ShowMenu = new Menu();
 
@@ -30,7 +29,7 @@ namespace TestStoreBackend
                 {
                     //Create
                     case '1':
-                        crud.Create(); 
+                        CRUDUser.Create();
                         Console.WriteLine("Press [ENTER] to go back to the menu");
                         Console.ReadLine();
                         Console.Clear();
@@ -38,7 +37,7 @@ namespace TestStoreBackend
                         break;
                         //Read
                     case '2':
-                        crud.Read(); 
+                        CRUDUser.Read();
                         Console.WriteLine("Press [ENTER] to go back to the menu");
                         Console.ReadLine();
                         Console.Clear();
@@ -46,8 +45,8 @@ namespace TestStoreBackend
                         break;
                         //Update
                     case '3':
-                        crud.Read();// Displaying all the users from the database, application user then can update a user by giving the Id.
-                        crud.Uppdate();
+                        CRUDUser.Read();// Displaying all the users from the database, application user then can update a user by giving the Id.
+                        CRUDUser.Uppdate();
                         Console.WriteLine("Press [ENTER] to go back to the menu");
                         Console.ReadLine();
                         Console.Clear();
@@ -56,9 +55,8 @@ namespace TestStoreBackend
 
                     //Delete
                     case '4':
-                        crud.Read(); // Displaying all the users from the database, application user then can delete a user by giving the Id.
-                        crud.Delete();
-                        Console.WriteLine("Press [ENTER] to go back to the menu");
+                        CRUDUser.Read(); // Displaying all the users from the database, application user then can delete a user by giving the Id.
+                        CRUDUser.Delete(); Console.WriteLine("Press [ENTER] to go back to the menu");
                         Console.ReadLine();
                         Console.Clear();
 

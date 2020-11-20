@@ -6,12 +6,12 @@ using System.Text;
 
 namespace TestStoreBackend.Classes
 {
-   public class CRUD
+  public static class CRUDUser
     {
         //Todo Tips: att tänka på kan vara att ange denna klass som exempelvis UserHelper eller CRUDUser. Det gör det lite tydligare vad denna klassen gör. Ett annat tips är att ange den som static då räcker det med att skriva CRUD.Create(). Att den är static betyder att den inte blir intansierad. (Du skapar inte ett object av den)
         //Jag anser att det är bättre med en statisk klass här då vi inte behöver hantera några variabler eller dylikt inuti denna klassen. Vi använder den bara som en hjälp klass. Då passar en statisk klass bättre. 
         //Create method
-        public void Create()
+        public static void Create()
         {
             using (var db = new StoreContext())
             {     
@@ -32,7 +32,7 @@ namespace TestStoreBackend.Classes
             }
         }
         //Read method
-        public void Read()
+        public static void Read()
         {
 
             using (var db = new StoreContext())
@@ -43,12 +43,10 @@ namespace TestStoreBackend.Classes
                         + " User name: " + item.FirstName + "\n" + " Last Name: "
                         + item.LastName + "\n" + " Password: " + item.Password);
                 }
-
             }
-
         }
         //Update method
-        public void Uppdate()
+        public static void Uppdate()
         {
             using (var db = new StoreContext())
             {
@@ -58,8 +56,6 @@ namespace TestStoreBackend.Classes
 
                 userUpdate.FirstName = Console.ReadLine();
                 userUpdate.LastName = Console.ReadLine();
-
-
                 Console.WriteLine("Press enter to save changes.");
                 db.SaveChanges();
                 Console.ReadLine();
@@ -69,7 +65,7 @@ namespace TestStoreBackend.Classes
             }
         }
         //Delete method
-        public void Delete()
+        public static void Delete()
         {
             using (var db = new StoreContext())
             {
