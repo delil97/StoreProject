@@ -98,3 +98,5 @@ TestStoreBackend/obj/TestStoreBackend.csproj.nuget.g.props
 *.cache
 *.exe
 *.cache
+*.v2
+.vs/StoreProject/v16/.suo
