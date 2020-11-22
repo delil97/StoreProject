@@ -1,0 +1,51 @@
+/*-----------------------------------------*/
+/*Basic setup*/
+/*-----------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: rgb(141, 141, 141);
+    font-family: "Roboto", sans-serif, "Arial";
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.main-nav {
+    float: right;
+    /*Standard way of formating navigation*/
+    list-style: none;
+    margin-top: 20px;
+}
+
+    .main-nav li {
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+    .row h3 {
+        text-align: center;
+    }
+
+
+/*-----------------------------------------*/
+/*Basic setup*/
+/*-----------------------------------------*/
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    color: #000000;
+}

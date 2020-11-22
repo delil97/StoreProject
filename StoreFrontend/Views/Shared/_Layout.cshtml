@@ -3,17 +3,22 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 </head>
 <body>
     <nav>
         <div class="row">
+            <h2 class="logo">B&S</h2>
             <ul class="main-nav">
-                <li><a href="#">Log in</a></li>
+                <li>
+                    <a>
+                        @Html.ActionLink("Log in", "Index", "Login", null, null)
+                    </a>
+                </li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Sign up</a></li>
                 <li><a href="#">For developers</a></li>
-            </ul> 
+            </ul>
         </div>
     </nav>
     <div>
