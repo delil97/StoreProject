@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {}
+    "C:\\www\\New folder\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {}
   },
   "projects": {
-    "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+    "C:\\www\\New folder\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
+        "projectUniqueName": "C:\\www\\New folder\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
         "projectName": "StoreBackend",
-        "projectPath": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
-        "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\StoreProject-\\StoreBackend\\obj\\",
+        "projectPath": "C:\\www\\New folder\\StoreProject-\\StoreBackend\\StoreBackend.csproj",
+        "packagesPath": "C:\\Users\\erik\\.nuget\\packages\\",
+        "outputPath": "C:\\www\\New folder\\StoreProject-\\StoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,11 +28,14 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,6 +47,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -69,25 +75,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {
+    "C:\\www\\New folder\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
+        "projectUniqueName": "C:\\www\\New folder\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
         "projectName": "TestStoreBackend",
-        "projectPath": "C:\\www\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
-        "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\StoreProject-\\TestStoreBackend\\obj\\",
+        "projectPath": "C:\\www\\New folder\\StoreProject-\\TestStoreBackend\\TestStoreBackend.csproj",
+        "packagesPath": "C:\\Users\\erik\\.nuget\\packages\\",
+        "outputPath": "C:\\www\\New folder\\StoreProject-\\TestStoreBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -95,14 +103,17 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 18.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
-                "projectPath": "C:\\www\\StoreProject-\\StoreBackend\\StoreBackend.csproj"
+              "C:\\www\\New folder\\StoreProject-\\StoreBackend\\StoreBackend.csproj": {
+                "projectPath": "C:\\www\\New folder\\StoreProject-\\StoreBackend\\StoreBackend.csproj"
               }
             }
           }
@@ -115,6 +126,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -130,7 +142,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

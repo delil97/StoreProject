@@ -1,17 +1,22 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/vendors/css/normalize.css" type="text/css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/style.css" type="text/css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/vendors/css/grid.css" type="text/css" asp-append-version="true" />
+    <title>B&S</title>
 </head>
 <body>
     <header>
-
-
         <nav>
             <div class="row">
-                <h2 class="logo">B&S</h2>
+                <h2 class="logo">
+                    <a class="logo-side">
+                        @Html.ActionLink("B&S", "Index", "Home", null, null)
+                    </a>
+                </h2>
                 <ul class="main-nav">
                     <li>
                         <a>
@@ -24,13 +29,6 @@
                 </ul>
             </div>
         </nav>
-        <div class="hero-text-box">
-            <h1>Buy and sell</br>Buy and sell your old stuff</h1><!--Only use one time-->
-            <a class="btn btn-full" href="#">
-                Sign Up
-            </a>
-            <a class="btn btn-ghost" href="#">Show me more</a>
-        </div>
     </header>
     <div>
         @RenderBody()

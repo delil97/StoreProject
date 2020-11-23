@@ -5,9 +5,20 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="resources\" />
-    <Folder Include="StaticFiles\" />
+    <Compile Remove="resources\**" />
+    <Compile Remove="StaticFiles\**" />
+    <Content Remove="resources\**" />
+    <Content Remove="StaticFiles\**" />
+    <EmbeddedResource Remove="resources\**" />
+    <EmbeddedResource Remove="StaticFiles\**" />
+    <None Remove="resources\**" />
+    <None Remove="StaticFiles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Styles\css\" />
+    <Folder Include="wwwroot\vendors\fonts\" />
+    <Folder Include="wwwroot\vendors\js\" />
   </ItemGroup>
 
   <ItemGroup>

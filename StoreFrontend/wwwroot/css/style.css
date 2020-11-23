@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+
 /*-----------------------------------------*/
 /*Basic setup*/
 /*-----------------------------------------*/
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /*The box-sizing CSS property sets how the total width and height of an element is calculated.*/
 }
 
 html {
     background-color: #fff;
     color: rgb(141, 141, 141);
-    font-family: "Roboto", sans-serif, "Arial";
+    font-family: "Noto Sans JP", sans-serif, "Arial";
     font-weight: 300;
     font-size: 20px;
-    text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility; /*Enables ligatures (ff, fi, fl, etc.) in text*/
 }
 
 .main-nav {
@@ -46,18 +48,33 @@ html {
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 50px;
     color: #fff;
 }
+    .logo a:link,
+    .logo a:visited {
+        padding: 2px 10px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 90%;
+        border: 2px solid transparent;
+        transition: border 0.2s;
+        border-radius: 25px;
+    }
+    .logo a:hover,
+    .logo a:active {
+        border: 2px solid;
+    }
 
 /*-----------------------------------------*/
 /*Header*/
 /*-----------------------------------------*/
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
-    background-size: cover;
+    background-size: cover; /*The background-size CSS property sets the size of the element's background image. */
     background-position: center;
-    height: 100vh; /*100% of the viewport*/
+    height: 100vh; /*100% of the viewport filles the whole viewport with this tag*/
 }
 .main-nav {
     float: right;
@@ -74,7 +91,8 @@ header {
     }
 
         .main-nav li a:link,
-        .main-nav li a:visited {
+        .main-nav li a:visited
+        {
             padding: 8px 0;
             color: #fff;
             text-decoration: none;
@@ -108,9 +126,9 @@ header {
 
 .btn-full:link,
 .btn-full:visited {
-    background-color: #e67e22;
-    border: 1px solid #e67e22;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #fff;
+    color: #000000;
     margin-right: 15px;
 }
 
@@ -174,15 +192,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " "; /*No words appears*/
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
+
 
 .box {
     padding: 1%;
@@ -191,4 +201,33 @@ h2:after {
     .box p {
         font-size: 90%;
         line-height: 145%;
+    }
+/*-------*/
+/*Login form*/
+/*------*/
+
+.login-submit 
+{
+    color: #ffffff;
+    opacity: 1;
+    background-color: transparent;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 5px;
+    padding: 2px;
+}
+
+    .login-submit:hover,
+    .login-submit:active {
+        border: 1px solid #fff;
+        background-color: #fff;
+        color: #000;
+    }
+
+    .login-submit:link,
+    .login-submit:visited {
+        background-color: #fff;
+        border: 1px solid #fff;
+        color: #000000;
+        margin-right: 15px;
     }

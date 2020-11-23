@@ -12,10 +12,14 @@ namespace StoreFrontend.Controllers
         {
             return View();
         }
-        [Route("/Test", Name = "Custom")]
-        public string Test()
+
+        [HttpPost]
+        public IActionResult Index(string userName, string password)
         {
-            return "This is the test page";
-        } 
+            ViewBag.Name = $"You are logged in: {userName}";
+
+            //Todo find username of logged in user. in Store Backend.
+            return View();
+        }
     }
 }
