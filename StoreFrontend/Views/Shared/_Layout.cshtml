@@ -6,21 +6,32 @@
     <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
 </head>
 <body>
-    <nav>
-        <div class="row">
-            <h2 class="logo">B&S</h2>
-            <ul class="main-nav">
-                <li>
-                    <a>
-                        @Html.ActionLink("Log in", "Index", "Login", null, null)
-                    </a>
-                </li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Sign up</a></li>
-                <li><a href="#">For developers</a></li>
-            </ul>
+    <header>
+
+
+        <nav>
+            <div class="row">
+                <h2 class="logo">B&S</h2>
+                <ul class="main-nav">
+                    <li>
+                        <a>
+                            @Html.ActionLink("Log in", "Index", "Login", null, null)
+                        </a>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">For developers</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero-text-box">
+            <h1>Buy and sell</br>Buy and sell your old stuff</h1><!--Only use one time-->
+            <a class="btn btn-full" href="#">
+                Sign Up
+            </a>
+            <a class="btn btn-ghost" href="#">Show me more</a>
         </div>
-    </nav>
+    </header>
     <div>
         @RenderBody()
     </div>

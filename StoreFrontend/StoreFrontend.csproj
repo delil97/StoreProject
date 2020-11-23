@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Images\" />
     <Folder Include="resources\" />
     <Folder Include="StaticFiles\" />
     <Folder Include="Styles\css\" />
@@ -13,6 +12,32 @@
 
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />
+    <None Include="wwwroot\img\.DS_Store" />
+    <None Include="wwwroot\img\1.jpg" />
+    <None Include="wwwroot\img\2.jpg" />
+    <None Include="wwwroot\img\3.jpg" />
+    <None Include="wwwroot\img\4.jpg" />
+    <None Include="wwwroot\img\5.jpg" />
+    <None Include="wwwroot\img\6.jpg" />
+    <None Include="wwwroot\img\7.jpg" />
+    <None Include="wwwroot\img\8.jpg" />
+    <None Include="wwwroot\img\app-iPhone.png" />
+    <None Include="wwwroot\img\back-customers.jpg" />
+    <None Include="wwwroot\img\berlin.jpg" />
+    <None Include="wwwroot\img\customer-1.jpg" />
+    <None Include="wwwroot\img\customer-2.jpg" />
+    <None Include="wwwroot\img\customer-3.jpg" />
+    <None Include="wwwroot\img\download-app-android.png" />
+    <None Include="wwwroot\img\download-app.svg" />
+    <None Include="wwwroot\img\hero.jpg" />
+    <None Include="wwwroot\img\lisbon-3.jpg" />
+    <None Include="wwwroot\img\logo-white.png" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\london.jpg" />
+    <None Include="wwwroot\img\omnifood-content.docx" />
+    <None Include="wwwroot\img\omnifood-content.pages" />
+    <None Include="wwwroot\img\omnifood-content.rtf" />
+    <None Include="wwwroot\img\san-francisco.jpg" />
   </ItemGroup>
 
   <ItemGroup>
