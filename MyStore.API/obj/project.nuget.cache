@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qpfTbWCvsITGBzz1jCKFgMPQxSob2GhACeeFht06evZ78r5xWpfg8ZnEa3WJf0LcHPj3yBlDNLm2l8iCumD/WQ==",
+  "dgSpecHash": "ZgrKY1YTOTJ8el44SjH2zLO0jrEIILxzodeCoCWkdSvCese4oxykctQRslxgfQ9AUa5lOUVagEk7pv/xDaEdFw==",
   "success": true,
-  "projectFilePath": "C:\\www\\StoreProject-\\MyStore.Api\\MyStore.Api.csproj",
+  "projectFilePath": "C:\\www\\StoreProject-\\MyStore.API\\MyStore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erikh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\erikh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

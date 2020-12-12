@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\StoreProject-\\MyStore.Api\\MyStore.Api.csproj": {}
+    "C:\\www\\StoreProject-\\MyStore.API\\MyStore.API.csproj": {}
   },
   "projects": {
-    "C:\\www\\StoreProject-\\MyStore.Api\\MyStore.Api.csproj": {
+    "C:\\www\\StoreProject-\\MyStore.API\\MyStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\StoreProject-\\MyStore.Api\\MyStore.Api.csproj",
-        "projectName": "MyStore.Api",
-        "projectPath": "C:\\www\\StoreProject-\\MyStore.Api\\MyStore.Api.csproj",
+        "projectUniqueName": "C:\\www\\StoreProject-\\MyStore.API\\MyStore.API.csproj",
+        "projectName": "MyStore.API",
+        "projectPath": "C:\\www\\StoreProject-\\MyStore.API\\MyStore.API.csproj",
         "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\StoreProject-\\MyStore.Api\\obj\\",
+        "outputPath": "C:\\www\\StoreProject-\\MyStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,7 +223,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj": {
+                "projectPath": "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

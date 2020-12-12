@@ -12,7 +12,7 @@ namespace MyStore.Core.Services
 
         Task<User> CreateUser(User user);
 
-        Task<User> UpdateUser(User userToBeUpdated, User user);
+        Task UpdateUser(User userToBeUpdated, User user);
 
         Task DeleteUser(User user);
     }

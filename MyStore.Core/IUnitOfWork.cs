@@ -8,9 +8,9 @@ namespace MyStore.Core
 {
     public interface IUnitOfWork
     {
-        IUserRepository User { get; }
+        IUserRepository Users { get; }
 
-        IAdressRepository Adress { get; }
+        IAdressRepository Adresses { get; }
 
         Task<int> CommitAsync();
     }

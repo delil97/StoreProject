@@ -16,13 +16,9 @@ namespace MyStore.Data
             this._context = context;
         }
 
-        public IUserRepository Musics => _musicRepository = _musicRepository ?? new UserRepository(_context);
+        public IUserRepository Users => _musicRepository = _musicRepository ?? new UserRepository(_context);
 
-        public IAdressRepository Artists => _artistRepository = _artistRepository ?? new AdressRepository(_context);
-
-        public IUserRepository User => throw new System.NotImplementedException();
-
-        public IAdressRepository Adress => throw new System.NotImplementedException();
+        public IAdressRepository Adresses => _artistRepository = _artistRepository ?? new AdressRepository(_context);
 
         public async Task<int> CommitAsync()
         {
