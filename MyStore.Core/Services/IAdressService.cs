@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyStore.Core.Services
 {
-    interface IAdressService
+    public interface IAdressService
     {
-        Task<Adress> CreateAdress(Adress newAdress);
+        Task CreateAdress(Adress newAdress);
     }
 }

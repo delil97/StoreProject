@@ -8,7 +8,7 @@ using MyStore.Core.Services;
 
 namespace MyStore.Services
 {
-    class UserService : IUserService
+    public class UserService : IUserService
     {
         private readonly IUnitOfWork _unitOfWork;
         public UserService(IUnitOfWork unitOfWork)
