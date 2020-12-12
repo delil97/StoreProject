@@ -9,6 +9,7 @@ using MyStore.Core;
 using MyStore.Core.Services;
 using MyStore.Data;
 using MyStore.Services;
+using AutoMapper;
 
 namespace MyStore.API
 {
@@ -32,6 +33,8 @@ namespace MyStore.API
 
             services.AddTransient<IAdressService, AdressService>();
             services.AddTransient<IUserService, UserService>();
+
+            services.AddAutoMapper(typeof(Startup));
 
             services.AddSwaggerGen(options =>
             {
