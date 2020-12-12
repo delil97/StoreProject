@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "MyStore.Services/1.0.0": {
+        "dependencies": {
+          "MyStore.Core": "1.0.0"
+        },
         "runtime": {
           "MyStore.Services.dll": {}
+        }
+      },
+      "MyStore.Core/1.0.0": {
+        "runtime": {
+          "MyStore.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MyStore.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyStore.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

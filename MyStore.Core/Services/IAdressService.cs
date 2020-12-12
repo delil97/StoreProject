@@ -8,6 +8,6 @@ namespace MyStore.Core.Services
 {
     public interface IAdressService
     {
-        Task CreateAdress(Adress newAdress);
+        Task<Adress> CreateAdress(Adress newAdress);
     }
 }

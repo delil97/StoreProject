@@ -22,3 +22,15 @@ C:\Users\Dator\Desktop\Test\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\S
 C:\Users\Dator\Desktop\Test\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.dll
 C:\Users\Dator\Desktop\Test\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.pdb
 C:\Users\Dator\Desktop\Test\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.genruntimeconfig.cache
+C:\www\StoreProject-\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.deps.json
+C:\www\StoreProject-\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.runtimeconfig.json
+C:\www\StoreProject-\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.runtimeconfig.dev.json
+C:\www\StoreProject-\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.dll
+C:\www\StoreProject-\StoreBackend\bin\Debug\netcoreapp3.1\StoreBackend.pdb
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.csprojAssemblyReference.cache
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.AssemblyInfoInputs.cache
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.AssemblyInfo.cs
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.csproj.CoreCompileInputs.cache
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.dll
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.pdb
+C:\www\StoreProject-\StoreBackend\obj\Debug\netcoreapp3.1\StoreBackend.genruntimeconfig.cache
