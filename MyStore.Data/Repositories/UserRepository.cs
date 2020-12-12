@@ -1,5 +1,7 @@
-﻿using MyStore.Core.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using MyStore.Core.Models;
 using MyStore.Core.Repositories;
+using System.Threading.Tasks;
 
 namespace MyStore.Data.Repositories
 {
@@ -13,5 +15,11 @@ namespace MyStore.Data.Repositories
         {
             get { return Context as MyStoreDbContext; }
         }
+
+        public Task<User> GetWithAdressById(int id)
+        {
+            return MyStoreDbContext.Users.Include(a => a.Adress).SingleOrDefaultAsync(u => u.Id == id);
+        }
+
     }
 }

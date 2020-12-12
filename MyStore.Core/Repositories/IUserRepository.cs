@@ -10,8 +10,5 @@ namespace MyStore.Core.Repositories
     {
         Task<User> GetWithAdressById(int id);
 
-        Task UpdateUser(User userToBeUpdated, User user);
-
-        Task DeleteUser(User user);
     }
 }

@@ -1,0 +1,9 @@
+C:\www\StoreProject-\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.deps.json
+C:\www\StoreProject-\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.dll
+C:\www\StoreProject-\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.pdb
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.AssemblyInfoInputs.cache
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.AssemblyInfo.cs
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csproj.CoreCompileInputs.cache
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.dll
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.pdb
+C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csprojAssemblyReference.cache

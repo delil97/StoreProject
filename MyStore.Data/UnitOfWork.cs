@@ -1,7 +1,7 @@
 ﻿using MyStore.Core;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MyStore.Core.Repositories;
+using MyStore.Data.Repositories;
+using System.Threading.Tasks;
 
 namespace MyStore.Data
 {
@@ -16,9 +16,13 @@ namespace MyStore.Data
             this._context = context;
         }
 
-        public IUserRepository Musics => _musicRepository = _musicRepository ?? new MusicRepository(_context);
+        public IUserRepository Musics => _musicRepository = _musicRepository ?? new UserRepository(_context);
 
-        public IAdressRepository Artists => _artistRepository = _artistRepository ?? new ArtistRepository(_context);
+        public IAdressRepository Artists => _artistRepository = _artistRepository ?? new AdressRepository(_context);
+
+        public IUserRepository User => throw new System.NotImplementedException();
+
+        public IAdressRepository Adress => throw new System.NotImplementedException();
 
         public async Task<int> CommitAsync()
         {
