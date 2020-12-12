@@ -1,0 +1,8 @@
+C:\www\StoreProject-\MyStore.Data\bin\Debug\netcoreapp3.1\MyStore.Data.deps.json
+C:\www\StoreProject-\MyStore.Data\bin\Debug\netcoreapp3.1\MyStore.Data.dll
+C:\www\StoreProject-\MyStore.Data\obj\Debug\netcoreapp3.1\MyStore.Data.csprojAssemblyReference.cache
+C:\www\StoreProject-\MyStore.Data\obj\Debug\netcoreapp3.1\MyStore.Data.AssemblyInfoInputs.cache
+C:\www\StoreProject-\MyStore.Data\obj\Debug\netcoreapp3.1\MyStore.Data.AssemblyInfo.cs
+C:\www\StoreProject-\MyStore.Data\bin\Debug\netcoreapp3.1\MyStore.Data.runtimeconfig.json
+C:\www\StoreProject-\MyStore.Data\bin\Debug\netcoreapp3.1\MyStore.Data.runtimeconfig.dev.json
+C:\www\StoreProject-\MyStore.Data\obj\Debug\netcoreapp3.1\MyStore.Data.genruntimeconfig.cache
