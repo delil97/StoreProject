@@ -4,7 +4,7 @@ using MyStore.Data.Configurations;
 
 namespace MyStore.Data
 {
-    class MyStoreDbContext : DbContext
+    public class MyStoreDbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Adress> Adresses { get; set; }
