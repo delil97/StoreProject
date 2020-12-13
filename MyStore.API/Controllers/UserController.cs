@@ -37,5 +37,21 @@ namespace MyStore.API.Controllers
 
             return Ok(automappedUser);
         }
+
+        [HttpPost]
+        public async Task<ActionResult<UserResources>> PostUser(User user)
+        {
+            //Todo. Ändra resultatet som kommer in. Kontrollera att inget av det som användaren skickar in inte är null. 
+
+            try
+            {
+                return Ok(user);
+            }
+            catch(Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
+        }
     }
 }
