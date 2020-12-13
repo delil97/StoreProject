@@ -15,43 +15,42 @@ namespace StoreFrontend.Controllers
             return View();
         }
 
-        [HttpPost]
-        public IActionResult Index(string userName, string password)
-        {
-            ViewBag.Name = $"You are logged in: {userName}";
+        //[HttpPost]
+        //public IActionResult Index(string userName, string password)
+        //{
+        //    ViewBag.Name = $"You are logged in: {userName}";
 
-            var user = new User();
+        //    var user = new User();
 
-            return View();
+        //    using (var client = new HttpClient())
+        //    {
+        //        client.BaseAddress = new Uri("http://localhost:64189/api/");
+        //        //HTTP GET
+        //        var responseTask = client.GetAsync("student");
+        //        responseTask.Wait();
 
-            //using (var client = new HttpClient())
-            //{
-            //    client.BaseAddress = new Uri("http://localhost:64189/api/");
-            //    //HTTP GET
-            //    var responseTask = client.GetAsync("student");
-            //    responseTask.Wait();
+        //        var result = responseTask.Result;
+        //        if (result.IsSuccessStatusCode)
+        //        {
+        //            var readTask = result.Content.ReadAsAsync<IList<StudentViewModel>>();
+        //            readTask.Wait();
 
-            //    var result = responseTask.Result;
-            //    if (result.IsSuccessStatusCode)
-            //    {
-            //        var readTask = result.Content.ReadAsAsync<IList<StudentViewModel>>();
-            //        readTask.Wait();
+        //            students = readTask.Result;
+        //        }
+        //        else //web api sent error response 
+        //        {
+        //            //log response status here..
 
-            //        students = readTask.Result;
-            //    }
-            //    else //web api sent error response 
-            //    {
-            //        //log response status here..
+        //            students = Enumerable.Empty<StudentViewModel>();
 
-            //        students = Enumerable.Empty<StudentViewModel>();
+        //            ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
+        //        }
+        //    }
 
-            //        ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
-            //    }
-            }
+        //    //https://localhost:44335/
 
-            //https://localhost:44335/
-
-            //Todo find username of logged in user. in Store Backend.
-            //return View();
-        }
+        //    //Todo find username of logged in user. in Store Backend.
+        //    return View();
+        //}
     }
+}

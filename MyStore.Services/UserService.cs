@@ -29,15 +29,16 @@ namespace MyStore.Services
             await _unitOfWork.CommitAsync();
         }
 
-        public async Task<User> GetUserWithAdress(int userId)
+        public async Task<User> GetUserWithAdress(string username, string password)
         {
             return await _unitOfWork.Users
-                .GetWithAdressById(userId);
+                .GetWithAdressById(username, password);
         }
 
         public async Task<User> GetUserByUserName(string username)
         {
-            throw new NotImplementedException();
+            return await _unitOfWork.Users.SingleOrDefaultAsync(x => x.UserName == username);
+
         }
 
         public async Task UpdateUser(User UserToBeUpdated, User User)

@@ -22,10 +22,10 @@ namespace MyStore.API.Controllers
             this._userService = musicService;
             this._mapper = mapper;
         }
-        [HttpGet("{id}")]
-        public async Task<ActionResult<UserResources>> GetUserById(int id)
+        [HttpGet("")]
+        public async Task<ActionResult<UserResources>> AuthenticateUser(string username, string password)
         {
-            var user = await _userService.GetUserWithAdress(id);
+            var user = await _userService.GetUserWithAdress(username, password);
 
             if(user is null)
             {
@@ -36,6 +36,5 @@ namespace MyStore.API.Controllers
 
             return Ok(automappedUser);
         }
-
     }
 }

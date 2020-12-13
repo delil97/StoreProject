@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MyStore.Core.Models;
 using MyStore.Core.Repositories;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace MyStore.Data.Repositories
@@ -16,9 +17,10 @@ namespace MyStore.Data.Repositories
             get { return Context as MyStoreDbContext; }
         }
 
-        public Task<User> GetWithAdressById(int id)
+        public Task<User> GetWithAdressById(string username, string password)
         {
-            return MyStoreDbContext.Users.Include(a => a.Adress).SingleOrDefaultAsync(u => u.Id == id);
+            return MyStoreDbContext.Users.Include(a => a.Adress).Where(user => user.UserName == username && user.Password == password).SingleOrDefaultAsync();
+               
         }
 
     }
