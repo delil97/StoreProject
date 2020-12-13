@@ -107,8 +107,6 @@ C:\www\New folder\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFront
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.csprojAssemblyReference.cache
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.AssemblyInfoInputs.cache
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.AssemblyInfo.cs
-C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.csproj.CoreCompileInputs.cache
-C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.MvcApplicationPartsAssemblyInfo.cache
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.RazorAssemblyInfo.cache
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.RazorAssemblyInfo.cs
 C:\www\StoreProject-\StoreFrontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -212,3 +210,6 @@ C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\staticwebassets\Store
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.dll
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.pdb
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.genruntimeconfig.cache
+C:\www\StoreProject-\StoreFrontend\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.csproj.CoreCompileInputs.cache
+C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.MvcApplicationPartsAssemblyInfo.cache

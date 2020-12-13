@@ -5,6 +5,8 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MyStore.Core.Models;
+using RestSharp;
+using Newtonsoft;
 
 namespace StoreFrontend.Controllers
 {
@@ -15,42 +17,23 @@ namespace StoreFrontend.Controllers
             return View();
         }
 
-        //[HttpPost]
-        //public IActionResult Index(string userName, string password)
-        //{
-        //    ViewBag.Name = $"You are logged in: {userName}";
+        [HttpPost]
+        public IActionResult Index(string userName, string password)
+        {
+            
+            var user = new User();
 
-        //    var user = new User();
+            var client = new RestClient("https://localhost:5000/api/user/");
+            client.AddDefaultQueryParameter("username", userName);
+            client.AddDefaultQueryParameter("password", password);
+            
+            var request = new RestRequest("",Method.GET, DataFormat.Json);
 
-        //    using (var client = new HttpClient())
-        //    {
-        //        client.BaseAddress = new Uri("http://localhost:64189/api/");
-        //        //HTTP GET
-        //        var responseTask = client.GetAsync("student");
-        //        responseTask.Wait();
+            var response = client.Execute(request);
 
-        //        var result = responseTask.Result;
-        //        if (result.IsSuccessStatusCode)
-        //        {
-        //            var readTask = result.Content.ReadAsAsync<IList<StudentViewModel>>();
-        //            readTask.Wait();
+            ViewBag.Name = $"You are logged in: {response.Content}";
 
-        //            students = readTask.Result;
-        //        }
-        //        else //web api sent error response 
-        //        {
-        //            //log response status here..
-
-        //            students = Enumerable.Empty<StudentViewModel>();
-
-        //            ModelState.AddModelError(string.Empty, "Server error. Please contact administrator.");
-        //        }
-        //    }
-
-        //    //https://localhost:44335/
-
-        //    //Todo find username of logged in user. in Store Backend.
-        //    return View();
-        //}
+            return View();
+        }
     }
 }
