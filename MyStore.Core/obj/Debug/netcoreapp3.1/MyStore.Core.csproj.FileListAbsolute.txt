@@ -6,3 +6,4 @@ C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.AssemblyI
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csproj.CoreCompileInputs.cache
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.dll
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.pdb
+C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csprojAssemblyReference.cache

@@ -35,6 +35,11 @@ namespace MyStore.Services
                 .GetWithAdressById(userId);
         }
 
+        public async Task<User> GetUserByUserName(string username)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task UpdateUser(User UserToBeUpdated, User User)
         {
             UserToBeUpdated.FirstName = User.FirstName;

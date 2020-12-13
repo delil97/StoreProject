@@ -36,5 +36,6 @@ namespace MyStore.API.Controllers
 
             return Ok(automappedUser);
         }
+
     }
 }
