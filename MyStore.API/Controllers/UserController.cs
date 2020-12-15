@@ -23,29 +23,32 @@ namespace MyStore.API.Controllers
             this._mapper = mapper;
         }
 
+        //GET api
         [HttpGet("")]
         public async Task<ActionResult<UserResources>> AuthenticateUser(string username, string password)
         {
-            var user = await _userService.GetUserWithAdress(username, password);
+            var userGet = await _userService.GetUserWithAdress(username, password);
 
-            if(user is null)
+            if(userGet is null)
             {
                 return NotFound("User not found");
             }
 
-            var automappedUser = _mapper.Map<User, UserResources>(user);
+            var automappedUser = _mapper.Map<User, UserResources>(userGet); // Vad gör den här???
 
             return Ok(automappedUser);
         }
 
+        // POST api 
+
         [HttpPost]
         public async Task<ActionResult<UserResources>> PostUser(User user)
         {
-            //Todo. Ändra resultatet som kommer in. Kontrollera att inget av det som användaren skickar in inte är null. 
-
             try
             {
-                return Ok(user);
+                var userPost = await _userService.CreateUser(user);
+
+                return Ok(userPost);
             }
             catch(Exception ex)
             {
@@ -53,5 +56,22 @@ namespace MyStore.API.Controllers
             }
             
         }
+
+        // PUT api
+        [HttpPut("{id}")]
+        public async Task<ActionResult<UserResources>> PutUser(int id, [FromBody] User user)
+        {
+
+            // return value
+
+        }
+
+        // DELETE: api
+        [HttpDelete("{id}")]
+        public void Delete(int id)
+        {
+        }
+
+
     }
 }
