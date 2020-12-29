@@ -5,12 +5,10 @@ using System.Threading.Tasks;
 
 namespace MyStore.API.Resources
 {
-    public class UserResources
-    {
-        public int Id { get; set; }
+    public class UserUpdateResources
+    {    
         public string FirstName { get; set; }
-        public string LastName { get; set; }
 
-        public AdressResources Adress { get; set; }
+        public string LastName { get; set; }      
     }
 }

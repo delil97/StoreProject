@@ -31,8 +31,10 @@ namespace MyStore.Services
 
         public async Task<User> GetUserWithAdress(string username, string password)
         {
-            return await _unitOfWork.Users
+            var user = await _unitOfWork.Users
                 .GetWithAdressById(username, password);
+            user.Adress = null;
+            return user;
         }
 
         public async Task<User> GetUserByUserName(string username)
@@ -43,11 +45,18 @@ namespace MyStore.Services
 
         public async Task UpdateUser(User UserToBeUpdated, User User)
         {
-            UserToBeUpdated.FirstName = User.FirstName;
+            //TODO: Debugga hela skiten sen
+            UserToBeUpdated.FirstName = User.FirstName; // UserToBeUpdated finns i databasen
             UserToBeUpdated.LastName = User.LastName;
-            UserToBeUpdated.Adress = User.Adress;
-
-            await _unitOfWork.CommitAsync();
+            await _unitOfWork.CommitAsync(); // kolla upp detta
         }
+
+        public async Task<User> GetUserById(int id)
+        {
+            var user = await _unitOfWork.Users.GetByIdAsync(id);
+            return user;
+        }
+
+        
     }
 }

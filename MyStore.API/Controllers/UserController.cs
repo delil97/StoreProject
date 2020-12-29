@@ -28,8 +28,7 @@ namespace MyStore.API.Controllers
         public async Task<ActionResult<UserResources>> AuthenticateUser(string username, string password)
         {
             var userGet = await _userService.GetUserWithAdress(username, password);
-
-            if(userGet is null)
+            if (userGet is null)
             {
                 return NotFound("User not found");
             }
@@ -50,28 +49,38 @@ namespace MyStore.API.Controllers
 
                 return Ok(userPost);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
-            
+
         }
 
-        // PUT api
+     
         [HttpPut("{id}")]
-        public async Task<ActionResult<UserResources>> PutUser(int id, [FromBody] User user)
+        public async Task<ActionResult<UserUpdateResources>> PutUser(int id, UserUpdateResources userUpdate)
         {
+            var user = await _userService.GetUserById(id); //hämtar en användare
+            var autoMappedUser = _mapper.Map<UserUpdateResources, User>(userUpdate); // mappar över från 
 
-            // return value
+            await _userService.UpdateUser(user, autoMappedUser);
+              
+            //TODO:
+            // hämta användare återigen efter update
+            // när du gör en getuserby id, blanda inte ihop gör en var NewUser t.ex lägg i return..
+
+                return Ok( );
+       
 
         }
+ 
 
-        // DELETE: api
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE: api
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
 
 
+        //}
     }
 }

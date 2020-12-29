@@ -7,3 +7,12 @@ C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csproj.Co
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.dll
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.pdb
 C:\www\StoreProject-\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csprojAssemblyReference.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\bin\Debug\netcoreapp3.1\MyStore.Core.deps.json
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\bin\Debug\netcoreapp3.1\MyStore.Core.dll
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\bin\Debug\netcoreapp3.1\MyStore.Core.pdb
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csprojAssemblyReference.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.AssemblyInfoInputs.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.AssemblyInfo.cs
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.csproj.CoreCompileInputs.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.dll
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Core\obj\Debug\netcoreapp3.1\MyStore.Core.pdb

@@ -8,7 +8,9 @@ namespace MyStore.Core.Repositories
 {
     public interface IUserRepository : IRepository<User>
     {
+        
         Task<User> GetWithAdressById(string username, string password);
 
     }
+
 }

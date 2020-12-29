@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\erikh\\.nuget\\packages\\": {}
+    "C:\\Users\\Dator\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\MyStore.Core.csproj",
       "projectName": "MyStore.Core",
-      "projectPath": "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj",
-      "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
-      "outputPath": "C:\\www\\StoreProject-\\MyStore.Core\\obj\\",
+      "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\MyStore.Core.csproj",
+      "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -32,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +48,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -58,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

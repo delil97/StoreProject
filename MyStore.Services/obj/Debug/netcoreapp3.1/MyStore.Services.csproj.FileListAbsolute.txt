@@ -10,3 +10,15 @@ C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.c
 C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csproj.CopyComplete
 C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.dll
 C:\www\StoreProject-\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.pdb
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.deps.json
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.dll
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Services.pdb
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Core.dll
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\bin\Debug\netcoreapp3.1\MyStore.Core.pdb
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csprojAssemblyReference.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.AssemblyInfoInputs.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.AssemblyInfo.cs
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csproj.CoreCompileInputs.cache
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.csproj.CopyComplete
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.dll
+C:\Users\Dator\Desktop\Test\StoreProject\MyStore.Services\obj\Debug\netcoreapp3.1\MyStore.Services.pdb

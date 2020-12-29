@@ -8,12 +8,17 @@ namespace MyStore.Core.Services
 {
     public interface IUserService
     {
+
         Task<User> GetUserWithAdress(string username, string password);
 
         Task<User> CreateUser(User user);
 
         Task UpdateUser(User userToBeUpdated, User user);
 
+        Task <User>GetUserById(int id);
+
         Task DeleteUser(User user);
+     
+     
     }
 }
