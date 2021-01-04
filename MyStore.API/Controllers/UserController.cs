@@ -28,18 +28,19 @@ namespace MyStore.API.Controllers
         public async Task<ActionResult<UserResources>> AuthenticateUser(string username, string password)
         {
             var userGet = await _userService.GetUserWithAdress(username, password);
+
+            //Todo make it similar to the put method user (try and catch). Throw exception if user wrote wrong username and password in service layer.
             if (userGet is null)
             {
                 return NotFound("User not found");
             }
 
-            var automappedUser = _mapper.Map<User, UserResources>(userGet); // Vad gör den här???
+            var automappedUser = _mapper.Map<User, UserResources>(userGet); 
 
             return Ok(automappedUser);
         }
 
         // POST api 
-
         [HttpPost]
         public async Task<ActionResult<UserResources>> PostUser(User user)
         {
@@ -60,27 +61,25 @@ namespace MyStore.API.Controllers
         [HttpPut("{id}")]
         public async Task<ActionResult<UserUpdateResources>> PutUser(int id, UserUpdateResources userUpdate)
         {
-            var user = await _userService.GetUserById(id); //hämtar en användare
-            var autoMappedUser = _mapper.Map<UserUpdateResources, User>(userUpdate); // mappar över från 
+            try
+            {
+                var user = await _userService.GetUserById(id);
 
-            await _userService.UpdateUser(user, autoMappedUser);
-              
-            //TODO:
-            // hämta användare återigen efter update
-            // när du gör en getuserby id, blanda inte ihop gör en var NewUser t.ex lägg i return..
+                var autoMappedUser = _mapper.Map<UserUpdateResources, User>(userUpdate);
 
-                return Ok( );
-       
+                await _userService.UpdateUser(user, autoMappedUser);
 
+                var updatedUser = await _userService.GetUserById(id);
+
+                var autoMappedupdatedUser = _mapper.Map<User, UserUpdateResources>(updatedUser);
+
+                return Ok(autoMappedupdatedUser);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            
         }
- 
-
-        //// DELETE: api
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-
-
-        //}
     }
 }

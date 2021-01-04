@@ -45,7 +45,6 @@ namespace MyStore.Services
 
         public async Task UpdateUser(User UserToBeUpdated, User User)
         {
-            //TODO: Debugga hela skiten sen
             UserToBeUpdated.FirstName = User.FirstName; // UserToBeUpdated finns i databasen
             UserToBeUpdated.LastName = User.LastName;
             await _unitOfWork.CommitAsync(); // kolla upp detta
@@ -53,6 +52,7 @@ namespace MyStore.Services
 
         public async Task<User> GetUserById(int id)
         {
+            //Todo throw exception if user cannot be found. Use a propper message.
             var user = await _unitOfWork.Users.GetByIdAsync(id);
             return user;
         }
