@@ -15,3 +15,7 @@ TestResult.xml
 Version.cs
 Version.h
 Version.cp
+StoreFrontend/obj/Debug/netcoreapp3.1/StoreFrontend.csprojAssemblyReference.cache
+MyStore.API/obj/Debug/netcoreapp3.1/MyStore.API.csprojAssemblyReference.cache
+MyStore.Services/obj/Debug/netcoreapp3.1/MyStore.Services.csprojAssemblyReference.cache
+StoreFrontend/obj/Debug/netcoreapp3.1/StoreFrontend.csprojAssemblyReference.cache
