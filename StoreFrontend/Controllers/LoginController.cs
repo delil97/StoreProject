@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc;
 using MyStore.Core.Models;
 using RestSharp;
 using Newtonsoft;
+using System.Net.Http.Headers;
+using Newtonsoft.Json;
 
 namespace StoreFrontend.Controllers
 {
@@ -18,22 +20,38 @@ namespace StoreFrontend.Controllers
         }
 
         [HttpPost]
-        public IActionResult Index(string userName, string password)
+        public async Task<IActionResult> IndexAsync(string userName, string password)
         {
-            
+
             var user = new User();
+            var baseUrl = "https://localhost:5000/";
+            using (var client = new HttpClient())
+            {
+                //Passing service base url  
+                client.BaseAddress = new Uri(baseUrl);
 
-            var client = new RestClient("https://localhost:5000/api/user/");
-            client.AddDefaultQueryParameter("username", userName);
-            client.AddDefaultQueryParameter("password", password);
-            
-            var request = new RestRequest("",Method.GET, DataFormat.Json);
+                client.DefaultRequestHeaders.Clear();
+                //Define request data format  
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            var response = client.Execute(request);
+                //Sending request to find web api REST service resource GetAllEmployees using HttpClient  
+                HttpResponseMessage Res = await client.GetAsync("api/user/");
 
-            ViewBag.Name = $"You are logged in: {response.Content}";
+                //Checking the response is successful or not which is sent using HttpClient  
+                if (Res.IsSuccessStatusCode)
+                {
+                    //Storing the response details recieved from web api   
+                    var EmpResponse = Res.Content.ReadAsStringAsync().Result;
 
-            return View();
+                    //Deserializing the response recieved from web api and storing into the Employee list  
+                    user = JsonConvert.DeserializeObject<User>(EmpResponse);
+
+                }
+                //returning the employee list to view  
+
+            }
+
+            return View(user);
         }
     }
 }
