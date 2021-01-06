@@ -231,3 +231,31 @@ h3 {
         color: #000000;
         margin-right: 15px;
     }
+/*-------*/
+/*Home page*/
+/*------*/
+.home-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container-item{
+    color: black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.container-item:hover{
+    color: white;
+    background-color: black;
+    font-size: 200%;
+    transition: 1s;
+}
