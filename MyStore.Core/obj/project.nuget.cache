@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OJm2HTVRZY85IkNTdnvvXi1ScCL1/wc+T/hOUa5hv5QhDM87NgYSCdas/wuybKOtTOg6jwQAsyuu4RKswpxggQ==",
+  "dgSpecHash": "QSeVIYturj4u5Nk1IVUphRuzn3ETcIc9kz3pVW7U7kY67lf2tQCCBri1/Bwx1J2iVdBrYtnLEUum7LN9RxkQEw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\MyStore.Core.csproj",
+  "projectFilePath": "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

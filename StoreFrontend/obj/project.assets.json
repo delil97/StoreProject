@@ -6511,23 +6511,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dator\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\erikh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\StoreFrontend\\StoreFrontend.csproj",
+      "projectUniqueName": "C:\\www\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
       "projectName": "StoreFrontend",
-      "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\StoreFrontend\\StoreFrontend.csproj",
-      "packagesPath": "C:\\Users\\Dator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\StoreFrontend\\obj\\",
+      "projectPath": "C:\\www\\StoreProject-\\StoreFrontend\\StoreFrontend.csproj",
+      "packagesPath": "C:\\Users\\erikh\\.nuget\\packages\\",
+      "outputPath": "C:\\www\\StoreProject-\\StoreFrontend\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\erikh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6539,10 +6535,9 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\MyStore.Core.csproj": {
-              "projectPath": "C:\\Users\\Dator\\Desktop\\Test\\StoreProject\\MyStore.Core\\MyStore.Core.csproj"
+            "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj": {
+              "projectPath": "C:\\www\\StoreProject-\\MyStore.Core\\MyStore.Core.csproj"
             }
           }
         }
@@ -6555,7 +6550,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.StaticFiles": {
             "target": "Package",
@@ -6592,7 +6586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
