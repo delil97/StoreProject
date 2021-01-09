@@ -6,11 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace StoreFrontend.Controllers
 {
-    public class HomeController : Controller
+    public class AdsController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(int year = 2, int month = 2)
         {
-            return View();
+            return Content($"Ads controller year {year}, month: {month}");
         }
     }
 }
