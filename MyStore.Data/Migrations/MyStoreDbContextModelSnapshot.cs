@@ -19,6 +19,35 @@ namespace MyStore.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
 
+            modelBuilder.Entity("MyStore.Core.Models.Ad", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<int?>("AdressId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Cost")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("PublishDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AdressId");
+
+                    b.ToTable("Ad");
+                });
+
             modelBuilder.Entity("MyStore.Core.Models.Adress", b =>
                 {
                     b.Property<int>("Id")
@@ -78,6 +107,15 @@ namespace MyStore.Data.Migrations
                     b.HasIndex("AdressId");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("MyStore.Core.Models.Ad", b =>
+                {
+                    b.HasOne("MyStore.Core.Models.Adress", "Adress")
+                        .WithMany()
+                        .HasForeignKey("AdressId");
+
+                    b.Navigation("Adress");
                 });
 
             modelBuilder.Entity("MyStore.Core.Models.User", b =>

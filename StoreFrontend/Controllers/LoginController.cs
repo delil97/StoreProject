@@ -19,9 +19,5 @@ namespace StoreFrontend.Controllers
             return View();
         }
 
-        public ActionResult LogInUser(string userName, string password)
-        {
-            return Content($"You are logged in {userName}, welcome!");
-        }
     }
 }

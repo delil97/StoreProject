@@ -23,14 +23,6 @@ namespace StoreFrontend
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Entry Route");
-                });
-            });
-
-            app.UseEndpoints(endpoints =>
-            {
                 endpoints.MapGet("/hello/{name:alpha}", async context =>
                 {
                     var name = context.Request.RouteValues["name"];
@@ -47,14 +39,6 @@ namespace StoreFrontend
             }
           );
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
-                name: "login",
-                pattern: "login/{userName}/{password}",
-                defaults: new { controller = "Login", action = "LogInUser" });
-            }
-         );
         }
     }
 }

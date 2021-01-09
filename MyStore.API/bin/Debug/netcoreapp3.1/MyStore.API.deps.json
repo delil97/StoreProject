@@ -22,7 +22,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "MyStore.API/1.0.0": {
+      "MyStore.Api/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.0",
@@ -303,10 +303,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "MyStore.API.dll": {}
+          "MyStore.Api.dll": {}
         },
         "compile": {
-          "MyStore.API.dll": {}
+          "MyStore.Api.dll": {}
         }
       },
       "AutoMapper/10.1.1": {
@@ -3125,7 +3125,7 @@
     }
   },
   "libraries": {
-    "MyStore.API/1.0.0": {
+    "MyStore.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
