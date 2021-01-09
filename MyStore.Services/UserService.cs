@@ -33,7 +33,7 @@ namespace MyStore.Services
         {
             var user = await _unitOfWork.Users
                 .GetWithAdressById(username, password);
-            user.Adress = null;
+            
             return user;
         }
 

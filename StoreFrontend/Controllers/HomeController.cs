@@ -12,5 +12,15 @@ namespace StoreFrontend.Controllers
         {
             return View();
         }
+
+        public ActionResult Random()
+        {
+            return RedirectToAction("Index", "Home", new { page = 1, sortBy = "name" });
+        }
+
+        public ActionResult Edit(int movieId)
+        {
+            return Content("id=" + movieId);
+        }
     }
 }

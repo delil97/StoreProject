@@ -211,8 +211,6 @@ C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.dll
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.pdb
 C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.genruntimeconfig.cache
 C:\www\StoreProject-\StoreFrontend\bin\Debug\netcoreapp3.1\RestSharp.dll
-C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.csproj.CoreCompileInputs.cache
-C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\bin\Debug\netcoreapp3.1\StoreFrontend.exe
@@ -322,3 +320,5 @@ C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\obj\Debug\netcoreapp3.1\S
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.dll
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.pdb
 C:\Users\Dator\Desktop\Test\StoreProject\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.genruntimeconfig.cache
+C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.csproj.CoreCompileInputs.cache
+C:\www\StoreProject-\StoreFrontend\obj\Debug\netcoreapp3.1\StoreFrontend.MvcApplicationPartsAssemblyInfo.cache
