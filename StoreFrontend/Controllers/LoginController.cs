@@ -19,39 +19,9 @@ namespace StoreFrontend.Controllers
             return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> IndexAsync(string userName, string password)
+        public ActionResult LogInUser(string userName, string password)
         {
-
-            var user = new User();
-            var baseUrl = "https://localhost:5000/";
-            using (var client = new HttpClient())
-            {
-                //Passing service base url  
-                client.BaseAddress = new Uri(baseUrl);
-
-                client.DefaultRequestHeaders.Clear();
-                //Define request data format  
-                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-                //Sending request to find web api REST service resource GetAllEmployees using HttpClient  
-                HttpResponseMessage Res = await client.GetAsync("api/user/");
-
-                //Checking the response is successful or not which is sent using HttpClient  
-                if (Res.IsSuccessStatusCode)
-                {
-                    //Storing the response details recieved from web api   
-                    var EmpResponse = Res.Content.ReadAsStringAsync().Result;
-
-                    //Deserializing the response recieved from web api and storing into the Employee list  
-                    user = JsonConvert.DeserializeObject<User>(EmpResponse);
-
-                }
-                //returning the employee list to view  
-
-            }
-
-            return View(user);
+            return Content($"You are logged in {userName}, welcome!");
         }
     }
 }

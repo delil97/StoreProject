@@ -46,6 +46,15 @@ namespace StoreFrontend
                 defaults: new { controller = "Ads", action = "Index" });
             }
           );
+
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllerRoute(
+                name: "login",
+                pattern: "login/{userName}/{password}",
+                defaults: new { controller = "Login", action = "LogInUser" });
+            }
+         );
         }
     }
 }
