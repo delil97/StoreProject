@@ -13,14 +13,19 @@ namespace StoreFrontend.Controllers
             return View();
         }
 
-        public ActionResult Random()
+        public ActionResult ListAdsBoard(int? pageIndex, string sortBy)
         {
-            return RedirectToAction("Index", "Home", new { page = 1, sortBy = "name" });
-        }
+            if (!pageIndex.HasValue)
+            {
+                pageIndex = 1;
+            }
 
-        public ActionResult Edit(int movieId)
-        {
-            return Content("id=" + movieId);
+            if (string.IsNullOrEmpty(sortBy))
+            {
+                sortBy = "Name";
+            }
+
+            return Content(String.Format($"pageIndex={pageIndex}&sortBy{sortBy}"));
         }
     }
 }
